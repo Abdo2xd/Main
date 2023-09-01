@@ -1,0 +1,96 @@
+/* Constiants */
+:root {
+    --Dark_cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Very_dark_blue: hsl(212, 21%, 14%);
+    --Dark_grayish_blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    --Font_size_paragraph: 14px;
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    height: 780px;
+}
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Cream);
+}
+/* Constiants */
+/* start main */
+main {
+    display: flex;
+    height: 450px;
+    width: 600px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: hidden;
+    justify-content: space-between;
+    box-shadow: 5px 5px 20px hsl(212, 21%, 14%);
+}
+main img {
+    width: 300px;
+}
+main .content {
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+main .content p, main .content h1 {
+    padding: 0;
+    margin: 5px 53px 5px 0;
+    line-height: 1.6;
+}
+main .content .Perfume-word {
+    letter-spacing: 5px;
+    
+}
+main .content p {
+    color: var(--Dark_grayish_blue);
+    font-size: var(--Font_size_paragraph);
+    font-family: 'Montserrat', sans-serif;
+}
+main .content h1 {
+    font-family: 'Fraunces', serif;
+
+}
+main .content .Cost-Bar {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 20px;
+}
+main .content .Cost-Bar p {
+    margin-left: 20px;
+    text-decoration: line-through;
+}
+main .content .Cost-Bar h1 {
+    font-size: 30px;
+    color: var(--Dark_cyan);
+    font-family: 'Fraunces', serif;
+    /* text-decoration: line-through; */
+    margin: 0;
+}
+main button {
+    width: 260px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: white;
+    background-color: var(--Dark_cyan);
+    height: 50px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    cursor: pointer;
+}
+/* end main */
